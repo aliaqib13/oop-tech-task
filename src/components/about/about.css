@@ -1,0 +1,22 @@
+.container-box{
+    max-width: 60%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.about-section h1{
+    font-size: 32px;
+    font-weight: 500;
+    color: #38dc4e;
+
+
+}
+.about-section p{
+    font-size: 16px;
+    padding: 0 55px;
+    line-height: 28px;
+
+}
+
+
+

@@ -1,0 +1,90 @@
+.counter-wrapper{
+  
+    max-width: 900px;
+    height: 19vh;
+    /* padding:  10px 20px; */
+   
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 50px;
+}
+.counter{
+    padding: 5px 40px;
+    margin: 0px auto;
+    height: 19vh;
+    background-color: #fff;
+   flex: 1;
+   border-radius: 15px 0  0 15px;
+   overflow: hidden;
+
+}
+.counter h3{
+    
+    font-size: 18px;
+    background: linear-gradient(rgb(53, 244, 5), rgb(251, 213, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.clock { 
+    color: darkgoldenrod;
+    font-size: 20px;
+    position: relative;
+   display: flex;
+   margin-top: -18px;
+}
+.clock  span{ 
+    color: darkgoldenrod;
+    font-size: 20px;
+    position: relative;
+    padding-right: 20px;
+    
+   
+}
+.clock-title{
+    margin-top: -20px;
+    letter-spacing: 40px;
+    margin-top: -30px;
+
+}
+.progress-bar{
+    height: 18vh;
+    background-color: #73c25e;
+    flex: 2;
+    padding: 10px 40px;
+    border-radius: 0 15px  15px 0px;
+    
+}
+.progress-bar h4{
+    color: #fff;
+}
+
+.prog-back{
+    width: auto;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.progress{
+    height: 20px;
+    width: 200px;
+    border-radius: 20px;
+   margin-left: 05px;
+   
+background: rgb(1,255,0);
+background: linear-gradient(90deg, rgba(1,255,0,1) 0%, rgba(231,240,5,1) 38%);
+    overflow: hidden;
+}
+.prog-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.prog-title p {
+    color:#fff ;
+}

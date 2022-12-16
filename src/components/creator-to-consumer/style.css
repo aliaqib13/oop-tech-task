@@ -1,0 +1,41 @@
+.creator-section{
+    width: 992px;
+    margin:  120px auto;
+    display: flex;
+}
+.col1{
+    flex-basis: 50%;
+
+}
+.col1 h1{
+    font: 32px;
+    font-weight: 500;
+    color: #3ddd53;
+    
+}
+.col1 h6{
+    font-size: 16px;
+    font-style: bold;
+    color: #4a4f59;
+    
+}
+.col1 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #4f5b78;
+}
+
+.col2{
+    flex-basis: 50%;display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ 
+}
+.col2 .row{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+}
